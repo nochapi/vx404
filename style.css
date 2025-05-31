@@ -1,0 +1,72 @@
+/* style.css */
+body {
+  background-color: #fdfdfc;
+  color: #222;
+  font-family: 'Noto Serif JP', 'YuMincho', 'Hiragino Mincho ProN', serif;
+  margin: 40px auto;
+  max-width: 700px;
+  padding: 0 20px;
+  line-height: 2.1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1.title {
+  font-size: 26px;
+  font-weight: normal;
+  letter-spacing: 1.2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Shippori Mincho B1', 'Noto Serif JP', serif;
+  text-align: center;
+}
+
+h2.subtitle {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.intro {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.poem {
+  margin-top: 50px;
+  text-align: left;
+  white-space: pre-wrap;
+  font-size: 18px;
+  line-height: 2.2;
+}
+
+.poem-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.poem-list a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #444;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.poem-list a:hover {
+  color: #000;
+  letter-spacing: 0.5px;
+}
