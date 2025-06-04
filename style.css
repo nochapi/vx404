@@ -69,4 +69,39 @@ h2.subtitle {
 .poem-list a:hover {
   color: #000;
   letter-spacing: 0.5px;
+}@media (max-width: 768px) {
+  body {
+    margin: 20px auto;
+    padding: 0 16px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .poem-list {
+    width: 100%;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .poem-list a {
+    font-size: 1.2em;
+    padding: 8px 0;
+  }
+
+  h1.title {
+    font-size: 22px;
+  }
+
+  h2.subtitle {
+    font-size: 14px;
+  }
+
+  .intro {
+    font-size: 13px;
+  }
+
+  .poem {
+    font-size: 17px;
+    line-height: 2.1;
+  }
 }
